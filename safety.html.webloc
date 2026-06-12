@@ -1,8 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>https://github.com/fdf1338-ship-it/echosteram/blob/main/public/safety.html</string>
-</dict>
-</plist>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoStream – Child Safety Standards</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0f19;
+      color: #e8eeff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 32px 20px 60px;
+    }
+
+    .card {
+      background: #121a2a;
+      border-radius: 14px;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
+    }
+
+    p, li {
+      line-height: 1.6;
+      color: rgba(232,238,255,0.92);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      background: rgba(122,183,255,0.15);
+      border-radius: 999px;
+      border: 1px solid rgba(122,183,255,0.4);
+      margin-bottom: 14px;
+      font-size: 13px;
+    }
+
+    a {
+      color: #7ab7ff;
+    }
+
+    footer {
+      margin-top: 24px;
+      font-size: 14px;
+      color: rgba(232,238,255,0.7);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <span class="badge">CSAE / Child Safety Policy</span>
+
+      <h1>EchoStream – Child Safety Standards</h1>
+
+      <p>
+        EchoStream is committed to protecting children and maintaining a safe environment.
+        We enforce a zero-tolerance policy toward any content involving child sexual abuse
+        or exploitation (CSAE/CSAM).
+      </p>
+
+      <h2>1. Zero-Tolerance Policy</h2>
+      <p>
+        EchoStream strictly prohibits:
+      </p>
+      <ul>
+        <li>Any sexual content involving minors</li>
+        <li>Child sexual abuse material (CSAM)</li>
+        <li>Grooming, solicitation, or exploitation of minors</li>
+        <li>Requests for or distribution of CSAE content</li>
+      </ul>
+
+      <h2>2. In-App Reporting</h2>
+      <p>
+        Users can report content directly within the app using the
+        <strong>Report</strong> option on posts or profiles.
+        All reports are reviewed promptly, and violations may result in
+        content removal, account suspension, or permanent bans.
+      </p>
+
+      <h2>3. External Reporting</h2>
+      <p>
+        If a child is in immediate danger, contact local emergency services.
+        Suspected CSAM may also be reported to the National Center for Missing &
+        Exploited Children (NCMEC):
+      </p>
+
+      <p>
+        <a href="https://www.missingkids.org/gethelpnow/cybertipline"
+           target="_blank" rel="noopener noreferrer">
+          https://www.missingkids.org/gethelpnow/cybertipline
+        </a>
+      </p>
+
+      <h2>4. Enforcement</h2>
+      <p>
+        EchoStream cooperates with law enforcement when required and may preserve
+        relevant data to comply with legal obligations. Severe or repeated violations
+        result in permanent account termination.
+      </p>
+
+      <h2>5. Contact</h2>
+      <p>
+        For child safety or compliance inquiries, contact:
+        <br />
+        <strong>Email:</strong>
+        <a href="mailto:echosteram@gmail.com">echosteram@gmail.com</a>
+      </p>
+
+      <footer>
+        Last updated:
+        <span id="date"></span>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("date").textContent =
+      new Date().toISOString().slice(0, 10);
+  </script>
+</body>
+</html>
